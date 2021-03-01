@@ -1,0 +1,74 @@
+<section class="contenedor sobre-mi">
+            <h2 class="titulo">Sobre mi</h2>
+            <div class="contenedor-sobre-mi">
+                
+                <div class="contenedor-textos">
+                    <h3><span>1</span>Los mejores juegos</h3>
+                    <p>estos son los mejores juegos de todas las plataforma</p>
+                    <h3><span>1</span>Los mejores juegos</h3>
+                    <p>estos son los mejores juegos de todas las plataforma</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+@media screen and (max-width:900px){
+    .header{
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .nav{
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .cuerpo{
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .footer{
+        height: 50vh;
+    }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .footer{
+        height: 30vh;
+    }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+}
+        
+
+        display: flex;
+		flex-wrap: wrap;
+		margin: 0px;
+		min-height: 100vh;
